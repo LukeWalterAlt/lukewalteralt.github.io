@@ -2,6 +2,7 @@
 
 @font-face {
   font-family: 'FT88', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/FT88-Regular.otf);
@@ -9,6 +10,7 @@
 
 @font-face {
   font-family: 'FT88', sans-serif;
+  font-display: swap;
   font-weight: bold;
   font-style: normal;
   src: url(../src/fonts/FT88-Bold.otf);
@@ -16,6 +18,7 @@
 
 @font-face {
   font-family: 'FT88', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: italic;
   src: url(../src/fonts/FT88-Italic.otf);
@@ -23,6 +26,7 @@
 
 @font-face {
   font-family: 'FT88 Serif', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/FT88-Serif.otf);
@@ -30,6 +34,7 @@
 
 @font-face {
   font-family: 'FT88 Expanded', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/FT88-Expanded.otf);
@@ -37,6 +42,7 @@
 
 @font-face {
   font-family: 'FT88 School', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/FT88-School.otf);
@@ -44,6 +50,7 @@
 
 @font-face {
   font-family: 'FT88 Gothique', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/FT88-Gothique.otf);
@@ -51,6 +58,7 @@
 
 @font-face {
   font-family: 'GT America', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
   src: url(../src/fonts/GT\ America\ Regular.otf);
@@ -58,6 +66,7 @@
 
 @font-face {
   font-family: 'GT America', sans-serif;
+  font-display: swap;
   font-weight: normal;
   font-style: bold;
   src: url(../src/fonts/GT\ America\ Bold.otf);
