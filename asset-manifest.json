@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/react-testing/static/css/main.073c9b0a.css",
-    "main.js": "/react-testing/static/js/main.9760ee6d.js",
-    "static/js/787.70aaafcc.chunk.js": "/react-testing/static/js/787.70aaafcc.chunk.js",
-    "static/media/logo.svg": "/react-testing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react-testing/static/css/main.72b948c7.css",
+    "main.js": "/react-testing/static/js/main.db3fe837.js",
+    "static/media/GT America Bold.otf": "/react-testing/static/media/GT America Bold.ebc81e22350db0c757c1.otf",
+    "static/media/GT America Regular.otf": "/react-testing/static/media/GT America Regular.0c9cd263bb5cf0b79374.otf",
+    "static/media/FT88-School.otf": "/react-testing/static/media/FT88-School.ab1eb81173a9fd549b7b.otf",
+    "static/media/FT88-Italic.otf": "/react-testing/static/media/FT88-Italic.fca1910ede1cc8819ed8.otf",
+    "static/media/FT88-Gothique.otf": "/react-testing/static/media/FT88-Gothique.7221eacbc8064dc49efc.otf",
+    "static/media/FT88-Bold.otf": "/react-testing/static/media/FT88-Bold.34a5f47e35ed873dcd84.otf",
+    "static/media/FT88-Serif.otf": "/react-testing/static/media/FT88-Serif.34408dab01d99a089f29.otf",
+    "static/media/FT88-Expanded.otf": "/react-testing/static/media/FT88-Expanded.c1d5b5c19e4ee1dc018c.otf",
+    "static/media/FT88-Regular.otf": "/react-testing/static/media/FT88-Regular.e5231ba9fea157b6fb9f.otf",
     "index.html": "/react-testing/index.html",
-    "main.073c9b0a.css.map": "/react-testing/static/css/main.073c9b0a.css.map",
-    "main.9760ee6d.js.map": "/react-testing/static/js/main.9760ee6d.js.map",
-    "787.70aaafcc.chunk.js.map": "/react-testing/static/js/787.70aaafcc.chunk.js.map"
+    "main.72b948c7.css.map": "/react-testing/static/css/main.72b948c7.css.map",
+    "main.db3fe837.js.map": "/react-testing/static/js/main.db3fe837.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9760ee6d.js"
+    "static/css/main.72b948c7.css",
+    "static/js/main.db3fe837.js"
   ]
 }
