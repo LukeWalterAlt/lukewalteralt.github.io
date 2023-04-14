@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ColorModeContext, useMode } from "./theme";
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import {
+  BrowserRouter,
+  HashRouter,
+  Route,
+  Routes
+} from 'react-router-dom';
+import Navbar from "./components/global/Navbar"
+import About from "./pages/About"
+import Resources from "./pages/Resources"
+import Documentation from "./pages/Documentation"
+import HallOfFame from "./pages/HallOfFame"
+import ErrorPage from "./pages/ErrorPage";
 
-function App() {
+export default function App() {
+
+  const [theme, colorMode] = useMode();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload. Checking if deploy works multiple times with the new setup!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ColorModeContext.Provider value={colorMode as any}>
+      <ThemeProvider theme={theme as any}>
+        <CssBaseline>
+          <div className="app">
+            <main className="content">
+              <HashRouter>
+                <Navbar />
+                <Routes>
+                  <Route path="/" element={ <About /> } />
+                  <Route path="/resources" element={ <Resources /> } />
+                  <Route path="/docs" element={ <Documentation /> } />
+                  <Route path="/hall-of-fame" element={ <HallOfFame /> } />
+                  <Route path="*" element={ <ErrorPage /> } />
+                </Routes>
+              </HashRouter>
+            </main>
+          </div>
+        </CssBaseline>
+      </ThemeProvider>
+    </ColorModeContext.Provider>
   );
 }
-
-export default App;
