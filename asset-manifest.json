@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-testing/static/css/main.08eac456.css",
-    "main.js": "/react-testing/static/js/main.db3fe837.js",
+    "main.js": "/react-testing/static/js/main.a705321a.js",
     "static/media/GT America Bold.otf": "/react-testing/static/media/GT America Bold.ebc81e22350db0c757c1.otf",
     "static/media/GT America Regular.otf": "/react-testing/static/media/GT America Regular.0c9cd263bb5cf0b79374.otf",
     "static/media/FT88-School.otf": "/react-testing/static/media/FT88-School.ab1eb81173a9fd549b7b.otf",
@@ -13,10 +13,10 @@
     "static/media/FT88-Regular.otf": "/react-testing/static/media/FT88-Regular.e5231ba9fea157b6fb9f.otf",
     "index.html": "/react-testing/index.html",
     "main.08eac456.css.map": "/react-testing/static/css/main.08eac456.css.map",
-    "main.db3fe837.js.map": "/react-testing/static/js/main.db3fe837.js.map"
+    "main.a705321a.js.map": "/react-testing/static/js/main.a705321a.js.map"
   },
   "entrypoints": [
     "static/css/main.08eac456.css",
-    "static/js/main.db3fe837.js"
+    "static/js/main.a705321a.js"
   ]
 }
